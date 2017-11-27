@@ -41,7 +41,7 @@ function populateNewsFeed() {
 function populateSlideShow() {
 	$("#slide > img").remove();
 	$.ajax({
-	  url: "http://arqueologiadigital.org/slideshow.html",
+	  url: "https://arqueologiadigital.org/slideshow.html",
 	  crossDomain: true
 	}).done(function(data) {
 		var fileDom = $(data);
