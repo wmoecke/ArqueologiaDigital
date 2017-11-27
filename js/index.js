@@ -27,7 +27,7 @@ $(function() {
 function populateNewsFeed() {
 	$("#newsFeed > p").remove();
 	$.ajax({
-	  url: "https://arqueologiadigital.org/newsfeed.html",
+	  url: "newsfeed.html",
 	  crossDomain: true
 	}).done(function(data) {
 		var fileDom = $(data);
@@ -41,7 +41,7 @@ function populateNewsFeed() {
 function populateSlideShow() {
 	$("#slide > img").remove();
 	$.ajax({
-	  url: "https://arqueologiadigital.org/slideshow.html",
+	  url: "slideshow.html",
 	  crossDomain: true
 	}).done(function(data) {
 		var fileDom = $(data);
