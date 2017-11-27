@@ -27,7 +27,7 @@ $(function() {
 function populateNewsFeed() {
 	$("#newsFeed > p").remove();
 	$.ajax({
-	  url: "http://arqueologiadigital.org/newsfeed.html",
+	  url: "https://arqueologiadigital.org/newsfeed.html",
 	  crossDomain: true
 	}).done(function(data) {
 		var fileDom = $(data);
