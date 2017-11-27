@@ -1,3 +1,186 @@
+@-webkit-keyframes BodyAnimation {
+	0%{background-position:0% 50%}
+	50%{background-position:100% 50%}
+	100%{background-position:0% 50%}
+}
+@-moz-keyframes BodyAnimation {
+	0%{background-position:0% 50%}
+	50%{background-position:100% 50%}
+	100%{background-position:0% 50%}
+}
+@-o-keyframes BodyAnimation {
+	0%{background-position:0% 50%}
+	50%{background-position:100% 50%}
+	100%{background-position:0% 50%}
+}
+@keyframes BodyAnimation { 
+	0%{background-position:0% 50%}
+	50%{background-position:100% 50%}
+	100%{background-position:0% 50%}
+}
+
+@-webkit-keyframes ShadowAnimation {
+	0%   {box-shadow: 10px 20px 45px #4715ff}
+	7%   {box-shadow: 10px 20px 45px #cc01cf}
+	14%  {box-shadow: 10px 20px 45px #ff4e50}
+	21%  {box-shadow: 10px 20px 45px #f9d423}
+	28%  {box-shadow: 10px 20px 45px #4b6cb7}
+	35%  {box-shadow: 10px 20px 45px #182848}
+	42%  {box-shadow: 10px 20px 45px #5f2c82}
+	49%  {box-shadow: 10px 20px 45px #49a09d}
+	56%  {box-shadow: 10px 20px 45px #134e5e}
+	63%  {box-shadow: 10px 20px 45px #71b280}
+	70%  {box-shadow: 10px 20px 45px #4776e6}
+	77%  {box-shadow: 10px 20px 45px #8e54e9}
+	84%  {box-shadow: 10px 20px 45px #16222a}
+	91%  {box-shadow: 10px 20px 45px #3a6073}
+	98%  {box-shadow: 10px 20px 45px #3ca55c}
+	100% {box-shadow: 10px 20px 45px #b5ac49}
+	/* 50%{box-shadow: 10px 20px 45px }
+	100%{box-shadow: 10px 20px 45px } */
+}
+@-moz-keyframes ShadowAnimation {
+	0%   {box-shadow: 10px 20px 45px #4715ff}
+	7%   {box-shadow: 10px 20px 45px #cc01cf}
+	14%  {box-shadow: 10px 20px 45px #ff4e50}
+	21%  {box-shadow: 10px 20px 45px #f9d423}
+	28%  {box-shadow: 10px 20px 45px #4b6cb7}
+	35%  {box-shadow: 10px 20px 45px #182848}
+	42%  {box-shadow: 10px 20px 45px #5f2c82}
+	49%  {box-shadow: 10px 20px 45px #49a09d}
+	56%  {box-shadow: 10px 20px 45px #134e5e}
+	63%  {box-shadow: 10px 20px 45px #71b280}
+	70%  {box-shadow: 10px 20px 45px #4776e6}
+	77%  {box-shadow: 10px 20px 45px #8e54e9}
+	84%  {box-shadow: 10px 20px 45px #16222a}
+	91%  {box-shadow: 10px 20px 45px #3a6073}
+	98%  {box-shadow: 10px 20px 45px #3ca55c}
+	100% {box-shadow: 10px 20px 45px #b5ac49}
+	/* 50%{box-shadow: 10px 20px 45px }
+	100%{box-shadow: 10px 20px 45px } */
+}
+@-o-keyframes ShadowAnimation {
+	0%   {box-shadow: 10px 20px 45px #4715ff}
+	7%   {box-shadow: 10px 20px 45px #cc01cf}
+	14%  {box-shadow: 10px 20px 45px #ff4e50}
+	21%  {box-shadow: 10px 20px 45px #f9d423}
+	28%  {box-shadow: 10px 20px 45px #4b6cb7}
+	35%  {box-shadow: 10px 20px 45px #182848}
+	42%  {box-shadow: 10px 20px 45px #5f2c82}
+	49%  {box-shadow: 10px 20px 45px #49a09d}
+	56%  {box-shadow: 10px 20px 45px #134e5e}
+	63%  {box-shadow: 10px 20px 45px #71b280}
+	70%  {box-shadow: 10px 20px 45px #4776e6}
+	77%  {box-shadow: 10px 20px 45px #8e54e9}
+	84%  {box-shadow: 10px 20px 45px #16222a}
+	91%  {box-shadow: 10px 20px 45px #3a6073}
+	98%  {box-shadow: 10px 20px 45px #3ca55c}
+	100% {box-shadow: 10px 20px 45px #b5ac49}
+	/* 50%{box-shadow: 10px 20px 45px }
+	100%{box-shadow: 10px 20px 45px } */
+}
+@keyframes ShadowAnimation { 
+	0%   {box-shadow: 10px 20px 45px #4715ff}
+	7%   {box-shadow: 10px 20px 45px #cc01cf}
+	14%  {box-shadow: 10px 20px 45px #ff4e50}
+	21%  {box-shadow: 10px 20px 45px #f9d423}
+	28%  {box-shadow: 10px 20px 45px #4b6cb7}
+	35%  {box-shadow: 10px 20px 45px #182848}
+	42%  {box-shadow: 10px 20px 45px #5f2c82}
+	49%  {box-shadow: 10px 20px 45px #49a09d}
+	56%  {box-shadow: 10px 20px 45px #134e5e}
+	63%  {box-shadow: 10px 20px 45px #71b280}
+	70%  {box-shadow: 10px 20px 45px #4776e6}
+	77%  {box-shadow: 10px 20px 45px #8e54e9}
+	84%  {box-shadow: 10px 20px 45px #16222a}
+	91%  {box-shadow: 10px 20px 45px #3a6073}
+	98%  {box-shadow: 10px 20px 45px #3ca55c}
+	100% {box-shadow: 10px 20px 45px #b5ac49}
+	/* 50%{box-shadow: 10px 20px 45px }
+	100%{box-shadow: 10px 20px 45px } */
+}
+
+@-webkit-keyframes SmallShadowAnimation {
+	0%   {box-shadow: 6px 6px 6px #4715ff}
+	6%   {box-shadow: 6px 6px 6px #cc01cf}
+	12%  {box-shadow: 6px 6px 6px #ff4e50}
+	18%  {box-shadow: 6px 6px 6px #f9d423}
+	24%  {box-shadow: 6px 6px 6px #4b6cb7}
+	30%  {box-shadow: 6px 6px 6px #182848}
+	36%  {box-shadow: 6px 6px 6px #5f2c82}
+	42%  {box-shadow: 6px 6px 6px #49a09d}
+	48%  {box-shadow: 6px 6px 6px #134e5e}
+	54%  {box-shadow: 6px 6px 6px #71b280}
+	60%  {box-shadow: 6px 6px 6px #4776e6}
+	66%  {box-shadow: 6px 6px 6px #8e54e9}
+	72%  {box-shadow: 6px 6px 6px #16222a}
+	78%  {box-shadow: 6px 6px 6px #3a6073}
+	84%  {box-shadow: 6px 6px 6px #3ca55c}
+	100% {box-shadow: 6px 6px 6px #b5ac49}
+	/* 50%{box-shadow: 10px 20px 45px }
+	100%{box-shadow: 10px 20px 45px } */
+}
+@-moz-keyframes SmallShadowAnimation {
+	0%   {box-shadow: 6px 6px 6px #4715ff}
+	6%   {box-shadow: 6px 6px 6px #cc01cf}
+	12%  {box-shadow: 6px 6px 6px #ff4e50}
+	18%  {box-shadow: 6px 6px 6px #f9d423}
+	24%  {box-shadow: 6px 6px 6px #4b6cb7}
+	30%  {box-shadow: 6px 6px 6px #182848}
+	36%  {box-shadow: 6px 6px 6px #5f2c82}
+	42%  {box-shadow: 6px 6px 6px #49a09d}
+	48%  {box-shadow: 6px 6px 6px #134e5e}
+	54%  {box-shadow: 6px 6px 6px #71b280}
+	60%  {box-shadow: 6px 6px 6px #4776e6}
+	66%  {box-shadow: 6px 6px 6px #8e54e9}
+	72%  {box-shadow: 6px 6px 6px #16222a}
+	78%  {box-shadow: 6px 6px 6px #3a6073}
+	84%  {box-shadow: 6px 6px 6px #3ca55c}
+	100% {box-shadow: 6px 6px 6px #b5ac49}
+	/* 50%{box-shadow: 10px 20px 45px }
+	100%{box-shadow: 10px 20px 45px } */
+}
+@-o-keyframes SmallShadowAnimation {
+	0%   {box-shadow: 6px 6px 6px #4715ff}
+	6%   {box-shadow: 6px 6px 6px #cc01cf}
+	12%  {box-shadow: 6px 6px 6px #ff4e50}
+	18%  {box-shadow: 6px 6px 6px #f9d423}
+	24%  {box-shadow: 6px 6px 6px #4b6cb7}
+	30%  {box-shadow: 6px 6px 6px #182848}
+	36%  {box-shadow: 6px 6px 6px #5f2c82}
+	42%  {box-shadow: 6px 6px 6px #49a09d}
+	48%  {box-shadow: 6px 6px 6px #134e5e}
+	54%  {box-shadow: 6px 6px 6px #71b280}
+	60%  {box-shadow: 6px 6px 6px #4776e6}
+	66%  {box-shadow: 6px 6px 6px #8e54e9}
+	72%  {box-shadow: 6px 6px 6px #16222a}
+	78%  {box-shadow: 6px 6px 6px #3a6073}
+	84%  {box-shadow: 6px 6px 6px #3ca55c}
+	100% {box-shadow: 6px 6px 6px #b5ac49}
+	/* 50%{box-shadow: 10px 20px 45px }
+	100%{box-shadow: 10px 20px 45px } */
+}
+@keyframes SmallShadowAnimation { 
+	0%   {box-shadow: 6px 6px 6px #4715ff}
+	6%   {box-shadow: 6px 6px 6px #cc01cf}
+	12%  {box-shadow: 6px 6px 6px #ff4e50}
+	18%  {box-shadow: 6px 6px 6px #f9d423}
+	24%  {box-shadow: 6px 6px 6px #4b6cb7}
+	30%  {box-shadow: 6px 6px 6px #182848}
+	36%  {box-shadow: 6px 6px 6px #5f2c82}
+	42%  {box-shadow: 6px 6px 6px #49a09d}
+	48%  {box-shadow: 6px 6px 6px #134e5e}
+	54%  {box-shadow: 6px 6px 6px #71b280}
+	60%  {box-shadow: 6px 6px 6px #4776e6}
+	66%  {box-shadow: 6px 6px 6px #8e54e9}
+	72%  {box-shadow: 6px 6px 6px #16222a}
+	78%  {box-shadow: 6px 6px 6px #3a6073}
+	84%  {box-shadow: 6px 6px 6px #3ca55c}
+	100% {box-shadow: 6px 6px 6px #b5ac49}
+	/* 50%{box-shadow: 10px 20px 45px }
+	100%{box-shadow: 10px 20px 45px } */
+}
+
 nav {
     position: fixed;
     top: 0;
@@ -10,13 +193,21 @@ nav {
     color: #EDEDED;
     overflow: hidden;
     z-index: 999;
-    box-shadow: 0 16px 55px #171;
-    border-radius: 15px;
+    /* box-shadow: 10px 20px 45px #171; */
+	border-radius: 16px;
+    -webkit-animation: ShadowAnimation 35s alternate infinite;
+    -moz-animation: ShadowAnimation 35s alternate infinite;
+    -o-animation: ShadowAnimation 35s alternate infinite;
+    animation: ShadowAnimation 35s alternate infinite;
 }
 
 nav span, #caption span, ul {
     font-weight: bold;
-	box-shadow: 0 0 8px #171;
+	/* box-shadow: 0 0 8px #171; */
+    -webkit-animation: SmallShadowAnimation 35s alternate infinite;
+    -moz-animation: SmallShadowAnimation 35s alternate infinite;
+    -o-animation: SmallShadowAnimation 35s alternate infinite;
+    animation: SmallShadowAnimation 35s alternate infinite;
 }
 
 nav span, #caption span {
@@ -27,6 +218,20 @@ body {
 	margin-top: 35px; 
 	font-family: "Open Sans", Tahoma, sans-serif; 
 	overflow-y: auto;
+	/* background: linear-gradient(270deg, 
+	#4715ff, #cc01cf, 
+	#ff4e50, #f9d423, 
+	#4b6cb7, #182848, 
+	#5f2c82, #49a09d, 
+	#134e5e, #71b280, 
+	#4776e6, #8e54e9, 
+	#16222a, #3a6073, 
+	#3ca55c, #b5ac49);
+    background-size: 3200% 3200%;
+    -webkit-animation: BodyAnimation 35s linear infinite;
+    -moz-animation: BodyAnimation 35s linear infinite;
+    -o-animation: BodyAnimation 35s linear infinite;
+    animation: BodyAnimation 35s linear infinite; */
 }
 
 body > h3 {
@@ -64,7 +269,11 @@ li {
     width: 640px;
     overflow-y: auto;
 	padding: 0 15px 0 15px;
-    box-shadow: 0 0 8px #171;
+    /* box-shadow: 0 0 8px #171; */
+    -webkit-animation: SmallShadowAnimation 35s alternate infinite;
+    -moz-animation: SmallShadowAnimation 35s alternate infinite;
+    -o-animation: SmallShadowAnimation 35s alternate infinite;
+    animation: SmallShadowAnimation 35s alternate infinite;
     border-radius: 15px;
     margin-left: 60px;
 }
@@ -79,7 +288,11 @@ li {
     width: 620px;
     /* padding-left: 15px; */
     padding: 13px 15px;
-    box-shadow: 0 0 8px #171;
+    /* box-shadow: 0 0 8px #171; */
+    -webkit-animation: SmallShadowAnimation 35s alternate infinite;
+    -moz-animation: SmallShadowAnimation 35s alternate infinite;
+    -o-animation: SmallShadowAnimation 35s alternate infinite;
+    animation: SmallShadowAnimation 35s alternate infinite;
     /* border-radius: 15px; */
     border-top-left-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -111,7 +324,11 @@ li {
 	overflow: hidden; 
 	height: 540px;
 	margin: 50px auto;
-	box-shadow: 0 0 8px #171;
+	/* box-shadow: 0 0 8px #171; */
+    -webkit-animation: SmallShadowAnimation 35s alternate infinite;
+    -moz-animation: SmallShadowAnimation 35s alternate infinite;
+    -o-animation: SmallShadowAnimation 35s alternate infinite;
+    animation: SmallShadowAnimation 35s alternate infinite;
 	position: relative;
 	border-radius: 15px;
 }
