@@ -255,53 +255,53 @@ body {
     animation: BodyAnimation 35s linear infinite; */
 }
 
-body, #newsfeed::-webkit-scrollbar {
+.scroll::-webkit-scrollbar {
     width: 16px;
     height: 16px;
 }
-body, #newsfeed::-webkit-scrollbar-button {
+.scroll::-webkit-scrollbar-button {
     width: 0;
     height: 0;
     display: none;
 }
-body, #newsfeed::-webkit-scrollbar-corner {
+.scroll::-webkit-scrollbar-corner {
     background-color: transparent;
 }
-body, #newsfeed::-webkit-scrollbar-thumb {
+.scroll::-webkit-scrollbar-thumb {
     /* background-color: #cecece; */
     background-color: rgba(255,255,255,0.4);
     -webkit-box-shadow: inset 1px 1px 0 rgba(255,255,255,0.10), inset 0 -1px 0 rgba(255,255,255,0.07);
 }
-body, #newsfeed::-moz-scrollbar {
+.scroll::-moz-scrollbar {
     width: 16px;
     height: 16px;
 }
-body, #newsfeed::-moz-scrollbar-button {
+.scroll::-moz-scrollbar-button {
     width: 0;
     height: 0;
     display: none;
 }
-body, #newsfeed::-moz-scrollbar-corner {
+.scroll::-moz-scrollbar-corner {
     background-color: transparent;
 }
-body, #newsfeed::-moz-scrollbar-thumb {
+.scroll::-moz-scrollbar-thumb {
     /* background-color: #cecece; */
     background-color: rgba(255,255,255,0.4);
     -moz-box-shadow: inset 1px 1px 0 rgba(255,255,255,0.10), inset 0 -1px 0 rgba(255,255,255,0.07);
 }
-body, #newsfeed::-o-scrollbar {
+.scroll::-o-scrollbar {
     width: 16px;
     height: 16px;
 }
-body, #newsfeed::-o-scrollbar-button {
+.scroll::-o-scrollbar-button {
     width: 0;
     height: 0;
     display: none;
 }
-body, #newsfeed::-o-scrollbar-corner {
+.scroll::-o-scrollbar-corner {
     background-color: transparent;
 }
-body, #newsfeed::-o-scrollbar-thumb {
+.scroll::-o-scrollbar-thumb {
     /* background-color: #cecece; */
     background-color: rgba(255,255,255,0.4);
     box-shadow: inset 1px 1px 0 rgba(255,255,255,0.10), inset 0 -1px 0 rgba(255,255,255,0.07);
